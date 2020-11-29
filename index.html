@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>William Seagle</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+<!--           NAVBAR             -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">William Seagle</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/svg2/main.py">Random Square</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/lexico/lexicoSort.py">Lexico Sort</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/compress/compress.py">Text Compression</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/parser/parser.py">Parser</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/stackQue/stackQue.py">Stack's and Queue's</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/recursive/recursiveGame.py">Recursion</a>
+              <a class="dropdown-item" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/word_freq/word_freq.py">Word Frequency</a>
+            </div>
+          </li>
+          <div class="btn-group">
+
+
+          <li class="nav-item">
+            <li><a href="https://github.com/Seagleb"><i class="fab fa-github fa-fw nav-link"></i></a></li>
+          </li>
+
+          <li class="nav-item">
+            <li><a href="#link"><i class="fa fa-envelope fa-fw nav-link"></i></a></li>
+          </li>
+          </div>
+
+        </ul>
+      </div>
+    </nav>
+
+<!--           /NAVBAR             -->
+<!--           BANNER             -->
+
+      <div class="banner">
+        <div class="bg-color">
+          <div class="container">
+            <div class="row">
+              <div class="banner-text text-center">
+                <div class="text-border">
+                  <h2 class="text-dec">William Seagle</h2>
+                </div>
+                <div class="intro-para text-center quote">
+                  <p class="big-text">Parkland College 2018</p>
+                  <p class="small-text">Hello, Welcome to my CSC 220 Data Structures Project Portfolio.  Please Select a project to view.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--           /BANNER             -->
+
+<!--           MENU             -->
+
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist">
+
+        <a class="list-group-item list-group-item-action active" id="list-squares-list" data-toggle="list" href="#list-squares" role="tab" aria-controls="lexico">Random Square</a>
+        <a class="list-group-item list-group-item-action" id="list-lexico-list" data-toggle="list" href="#list-lexico" role="tab" aria-controls="lexico">Lexico Sort</a>
+        <a class="list-group-item list-group-item-action" id="list-compression-list" data-toggle="list" href="#list-compression" role="tab" aria-controls="compression">Text Compression</a>
+        <a class="list-group-item list-group-item-action" id="list-parser-list" data-toggle="list" href="#list-parser" role="tab" aria-controls="parser">Parser</a>
+        <a class="list-group-item list-group-item-action" id="list-stack-queue-list" data-toggle="list" href="#list-stack-queue" role="tab" aria-controls="stack-queue">Stack's and Queue's</a>
+        <a class="list-group-item list-group-item-action" id="list-recursion-list" data-toggle="list" href="#list-recursion" role="tab" aria-controls="recursion">Recursion Game</a>
+        <a class="list-group-item list-group-item-action" id="list-word-frequency-list" data-toggle="list" href="#list-word-frequency" role="tab" aria-controls="word-frequency">Word Frequency</a>
+
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade show active" id="list-squares" role="tabpanel" aria-labelledby="list-squares-list">This is a test of SVG graphics, it prints random square class objects across the screen. <br> <br> Click the button at the bottom right to run.
+          <div class="date-created"><i class="fas fa-calendar-alt"></i>  09/20/18</div>
+          <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/svg2/main.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-lexico" role="tabpanel" aria-labelledby="list-lexico-list">This project takes input text, sorts it in lexicographical order, and prints it back to you. <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  10/02/18</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/lexico/lexicoSort.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-compression" role="tabpanel" aria-labelledby="list-compression-list">This project takes input text and gives you a binary string representation of it compressed using Huffman Coding. <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  11/01/18</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/compress/compress.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-parser" role="tabpanel" aria-labelledby="list-parser-list">This project takes input text in a specific definition order.  'variable' = 'value'.  There must be new lines between each defintion.  ex: <br> var1 = 15 <br> var2 = var1 <br> var1  <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  10/18/18</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/parser/parser.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-stack-queue" role="tabpanel" aria-labelledby="list-stack-queue-list">This project is an example of the use of Stack's and Queue's by taking a list of servers and customers and popping the Stack and Queue accordingly. <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  10/26/18</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/stackQue/stackQue.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-recursion" role="tabpanel" aria-labelledby="list-recursion-list">This project is a test of recursion.  In this game you enter a series of numbers and the function is to return you the correct path to the end going either forward or backward the number of spaces of the numerical value. <br> Example: <br> 2 3 1 2 1  <br> This goes from 2, to 1, back to 3, forward 3 to the last number <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  10/12/18</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/recursive/recursiveGame.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-word-frequency" role="tabpanel" aria-labelledby="list-word-frequency-list">This project takes text input and outputs the top 20 most common words if there are at least 20 and gives them a hash number. <br> <br> Click the button at the bottom right to run.
+        <div class="date-created"><i class="fas fa-calendar-alt"></i>  11/9/2018</div>
+        <div class="execute-button"><a class="noSelect" href="http://www.csit.parkland.edu/~wseagle2/cgi-bin/csc220/word_freq/word_freq.py"><i class="fas fa-file-code fa-2x"></i></a></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--           /MENU             -->
+
+  </body>
+</html>
