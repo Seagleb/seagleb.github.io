@@ -1,0 +1,52 @@
+
+.banner{
+	background: url('https://images.unsplash.com/photo-1533709752211-118fcaf03312?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8dc93f8092096ebef36d48276c81e30e&auto=format&fit=crop&w=500&q=60') no-repeat center top;
+    background-size: cover;
+	max-height: 380px;
+    position: relative;
+}
+.bg-color{
+	background-color: RGBA(12, 11, 11, 0.82);
+	max-height: 380px;
+}
+.text-dec{
+	font-size: 24px;
+	padding: 10px 20px;
+    margin: 15px 0;
+	text-transform: uppercase;
+    color: #fff;
+}
+.text-border{
+	border: 5px solid #5FCF80;
+	display: inline-block;
+	margin-top: 50px;
+}
+.intro-para{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	margin-top: 10px;
+}
+.quote .btn{
+    background-color:
+}
+
+div.date-created {
+    position: absolute;
+    bottom: 1em;
+}
+
+div.execute-button{
+    position:absolute;
+		right: 1em;
+		bottom: 1em;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
